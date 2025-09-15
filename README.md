@@ -1,29 +1,47 @@
-# Cat Game Telegram Bot (Demo)
+# Cat Game Telegram Bot (Demo)😺
 
-این پروژه یک نمونه بازی وب‌اپ برای تلگرام است.  
-**توجه:** نسخه موجود روی گیت‌هاب، اطلاعات واقعی کاربران را جمع‌آوری نمی‌کند و فقط برای تست و یادگیری است.
+Welcome to the **Cat Game Telegram Bot**! This project is a demo of a Telegram WebApp game showcasing interactive gameplay and animation using modern JavaScript.
 
-## ویژگی‌ها
-- نمایش وب‌اپ بازی (Cat Game) برای تلگرام
-- نمونه رابط کاربری با بار پر شدن و پیام Loading
-- نسخه امن بدون جمع‌آوری اطلاعات واقعی کاربران
+**Note:** This version is fully safe for public release and does **not collect any real user data**. It is intended purely for educational and testing purposes.
 
-## نحوه اجرا
+## Features
+- Interactive Telegram WebApp game interface
+- Loading bar animation with dynamic progress
+- Safe demo mode with test data
+- Easy to deploy on Cloudflare Workers or Node.js environments
 
-1. کلون کردن پروژه:
+## How to Run
+
+1. Clone the repository:
 ```bash
 git clone https://github.com/USERNAME/cat-game-telegram.git
 cd cat-game-telegram
 ```
-2. نصب وابستگی‌ها (برای Node.js):
+
+2. Install dependencies (Node.js):
 ```bash
 npm install
 ```
-3. تغییر مقادیر BOT_TOKEN و BOT_ID در `index.js`
-4. اجرای پروژه:
+
+3. Update `BOT_TOKEN` and `BOT_ID` in `index.js` (for testing, leave blank or use demo values).
+
+4. Start the server:
 ```bash
 node index.js
 ```
 
-## لایسنس
-MIT License
+5. Open your browser and navigate to the URL displayed by the server to see the demo game.
+
+## Project Structure
+```
+cat-game-telegram/
+├─ index.js       # Main JavaScript file (secure demo version)
+├─ README.md      # Project overview and instructions
+├─ LICENSE        # MIT License
+├─ .gitignore     # Ignore node_modules and environment files
+└─ package.json   # Project metadata and dependencies
+```
+
+## License
+This project is licensed under the **MIT License**. See the LICENSE file for details.
+
